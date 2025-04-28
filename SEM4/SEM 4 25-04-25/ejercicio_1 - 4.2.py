@@ -12,5 +12,5 @@ for n in range(cantidad):
         nota = int(input("Ingrese nota del alumno (negativo para fin): "))
     alumnos [nombre] = notas.copy()
 for nombre, notas in alumnos.items():
-    print ("%s ha optenido un promedio de %f" % (nombre, sum(notas)/len(notas),2))
+    print ("%s ha optenido un promedio de %f" % (nombre, sum(notas)/len(notas)))
     
